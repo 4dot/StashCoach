@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CircleLevelView" customModule="StashCoach" customModuleProvider="target">
+            <connections>
+                <outlet property="levelLbl" destination="k9H-33-aSi" id="y1F-8q-9ye"/>
+                <outlet property="titleLbl" destination="KOI-ff-I5p" id="Hs6-IU-lWz"/>
+                <outlet property="view" destination="eld-M7-JoV" id="Hs6-IU-lLz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eld-M7-JoV">
+            <rect key="frame" x="0.0" y="0.0" width="104" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lavel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOI-ff-I5p">
+                    <rect key="frame" x="32" y="22" width="40" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="NGg-ML-w6q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9H-33-aSi">
+                    <rect key="frame" x="38" y="44" width="28" height="48"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="KOI-ff-I5p" firstAttribute="centerY" secondItem="eld-M7-JoV" secondAttribute="centerY" constant="-20" id="3B1-oU-4eU"/>
+                <constraint firstAttribute="width" constant="104" id="DOv-gE-EXG"/>
+                <constraint firstItem="k9H-33-aSi" firstAttribute="centerX" secondItem="eld-M7-JoV" secondAttribute="centerX" id="PS8-hZ-c20"/>
+                <constraint firstItem="KOI-ff-I5p" firstAttribute="centerX" secondItem="eld-M7-JoV" secondAttribute="centerX" id="jJF-QL-wVz"/>
+                <constraint firstAttribute="bottom" secondItem="k9H-33-aSi" secondAttribute="bottom" constant="12" id="jUw-xT-7nu"/>
+                <constraint firstItem="k9H-33-aSi" firstAttribute="top" secondItem="KOI-ff-I5p" secondAttribute="bottom" constant="2" id="kmb-s7-1P2"/>
+                <constraint firstAttribute="height" constant="104" id="qJV-dn-c0u"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="19" y="-58"/>
+        </view>
+    </objects>
+</document>
