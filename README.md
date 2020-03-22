@@ -1,7 +1,8 @@
 # StashCoach
-Stash-Coding Challenge
 
 ![ScreenShot](https://raw.github.com/4dot/StashCoach/master/Docs/architecture.png)
+
+# Communication and references
 
 - AchievementViewController communicates with AchievementPresenter via a AchievementPresenterInterface protocol
 - AchievementPresenter communicates with AchievementViewController via a AchievementViewInterface protocol
