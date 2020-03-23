@@ -2,7 +2,7 @@
 //  AchievementTableViewCell.swift
 //  StashCoach
 //
-//  Created by OGiP on 3/19/20.
+//  Created by Chanick Park on 3/19/20.
 //  Copyright © 2020 Chanick Park. All rights reserved.
 //
 
@@ -37,7 +37,7 @@ class AchievementTableViewCell : UITableViewCell {
         progressBarView.layer.sublayers?[safe: 1]?.cornerRadius = 5
         progressBarView.subviews[safe: 1]?.clipsToBounds = true
         
-        // set selected back ground color to none
+        // set selected bg color to none (clear)
         let view = UIView()
         view.backgroundColor = UIColor.clear
         selectedBackgroundView = view
@@ -49,7 +49,7 @@ class AchievementTableViewCell : UITableViewCell {
         let placeHolder = UIColor.random.image()
         
         if let imageURL = imageURL {
-            // Using SDWebImage lib for download image asynchronous and cached.
+            // Using SDWebImage lib for downloading image asynchronous and cached.
             bgImageView.sd_setImage(with: imageURL, placeholderImage: placeHolder, options: [], completed: nil)
         }
         else {

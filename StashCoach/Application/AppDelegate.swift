@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  StashCoach
 //
-//  Created by OGiP on 3/19/20.
+//  Created by Chanick Park on 3/19/20.
 //  Copyright © 2020 Chanick Park. All rights reserved.
 //
 
@@ -17,7 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Init Wireframe(Router)
         let initialController = UINavigationController()
+        
+        // navigation bar color (purple)
         initialController.navigationBar.barTintColor = UIColor(red: 105/255, green: 55/255, blue: 206/255, alpha: 1)
+        
+        // title color (white)
         initialController.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
         
         initialController.setRootWireframe(AchievementWireframe())

@@ -2,7 +2,7 @@
 //  CircleLevelView.swift
 //  StashCoach
 //
-//  Created by OGiP on 3/20/20.
+//  Created by Chanick Park on 3/20/20.
 //  Copyright © 2020 Chanick Park. All rights reserved.
 //
 
@@ -35,7 +35,7 @@ class CircleLevelView : UIView {
     }
     
     fileprivate func initUI() {
-        // circle
+        // circle outline
         self.outlineCircle(bgColor: .white, borderColor: .white)
     }
     

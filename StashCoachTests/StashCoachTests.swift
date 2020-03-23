@@ -2,7 +2,7 @@
 //  StashCoachTests.swift
 //  StashCoachTests
 //
-//  Created by OGiP on 3/19/20.
+//  Created by Chanick Park on 3/19/20.
 //  Copyright © 2020 Chanick Park. All rights reserved.
 //
 

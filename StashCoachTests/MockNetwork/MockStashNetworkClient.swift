@@ -2,7 +2,7 @@
 //  MockStashNetworkClient.swift
 //  StashCoachTests
 //
-//  Created by OGiP on 3/22/20.
+//  Created by Chanick Park on 3/22/20.
 //  Copyright © 2020 Chanick Park. All rights reserved.
 //
 
@@ -19,7 +19,7 @@ final class MockStashNetworkClient : NetworkClient {
     func request(path: String, complete: @escaping (NetworkClientResult<Data>) -> Void) {
         self.path = path
         
-        // load json file from local
+        // load json file from local (StashCoachTest Resource)
         guard let url = Bundle(for: StashCoachTests.self).url(forResource: path, withExtension: "json") else {
             complete(.failure([BundleRequestError.invalidPath.localizedDescription]))
             return

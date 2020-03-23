@@ -1,9 +1,9 @@
 //
 //  NetworkManager.swift
-//  GitHubBrowser
+//  StashCoach
 //
-//  Created by Chanick on 8/22/19.
-//  Copyright (c) 2019 Chanick Park. All rights reserved.
+//  Created by Chanick Park on 3/19/20.
+//  Copyright © 2020 Chanick Park. All rights reserved.
 //
 
 import Foundation

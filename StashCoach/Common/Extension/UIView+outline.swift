@@ -11,7 +11,7 @@ import UIKit
 
 extension UIView {
 
-    // MARK: - layer
+    // MARK: - outline, shadow
 
     // outline
     func outline(bgColor: UIColor, borderColor: UIColor, border: CGFloat = 1, radius: CGFloat = 2) {

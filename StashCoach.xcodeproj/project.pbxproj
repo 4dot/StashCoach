@@ -34,7 +34,6 @@
 		69C2AEED2425467700517981 /* AchievementNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2AEEC2425467700517981 /* AchievementNetworkManager.swift */; };
 		69C2AEEF2425549C00517981 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2AEEE2425549C00517981 /* NetworkClient.swift */; };
 		69C2AEF12425587800517981 /* StashNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2AEF02425587800517981 /* StashNetworkClient.swift */; };
-		69C2AEF324255D8000517981 /* Dictionary+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2AEF224255D8000517981 /* Dictionary+extension.swift */; };
 		69C2AEF52425B3FC00517981 /* Array+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2AEF42425B3FC00517981 /* Array+extension.swift */; };
 		69C2AEF92425BF4700517981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2AEF82425BF4700517981 /* ViewController.swift */; };
 		69C2AF09242726F000517981 /* MockAchievementNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2AF08242726F000517981 /* MockAchievementNetworkManager.swift */; };
@@ -92,7 +91,6 @@
 		69C2AEEC2425467700517981 /* AchievementNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementNetworkManager.swift; sourceTree = "<group>"; };
 		69C2AEEE2425549C00517981 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		69C2AEF02425587800517981 /* StashNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StashNetworkClient.swift; sourceTree = "<group>"; };
-		69C2AEF224255D8000517981 /* Dictionary+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+extension.swift"; sourceTree = "<group>"; };
 		69C2AEF42425B3FC00517981 /* Array+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+extension.swift"; sourceTree = "<group>"; };
 		69C2AEF82425BF4700517981 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69C2AF08242726F000517981 /* MockAchievementNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAchievementNetworkManager.swift; sourceTree = "<group>"; };
@@ -269,7 +267,6 @@
 				69C2AEAD24233D4E00517981 /* UIStoryboard+extension.swift */,
 				69C2AEE5242488DB00517981 /* UIView+outline.swift */,
 				69C2AEEA242490D200517981 /* UIColor+random.swift */,
-				69C2AEF224255D8000517981 /* Dictionary+extension.swift */,
 				69C2AEF42425B3FC00517981 /* Array+extension.swift */,
 			);
 			path = Extension;
@@ -522,7 +519,6 @@
 				69C2AEC724233D8000517981 /* NetworkManager.swift in Sources */,
 				69C2AEF12425587800517981 /* StashNetworkClient.swift in Sources */,
 				69C2AEB624233D4E00517981 /* InteractorInterface.swift in Sources */,
-				69C2AEF324255D8000517981 /* Dictionary+extension.swift in Sources */,
 				69C2AEB224233D4E00517981 /* PresenterInterface.swift in Sources */,
 				69C2AED524233F6E00517981 /* AchievementViewController.swift in Sources */,
 				69C2AEE6242488DB00517981 /* UIView+outline.swift in Sources */,
